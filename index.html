@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!-- Creating the head, making title,  making a link to CSS file -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MyPortfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body> <!-- Making a body for the whole project-->
+  
+  <header> <!-- opening header: top part of a page-->
+    <h1>Artur-Thinkful</h1>  <!-- heading number 1-->
+    <p>Student at Thinkful </p> <!-- paragraph -->
+  </header> <!-- closing header-->
+  <main> <!-- structure main-->
+    <div>
+      <img src="image/SEG.jpeg" width="300" alt="SEG conference"> <!-- uploading the image on the page-->
+    </div>
+    <div>
+      <article>  <!-- opening article container to group related content in this section-->      
+        <h2 class="changes">Hey, I am Artur from Thinkful!</h2> <!-- heading number 2-->
+        <p class="p-changes">I am a student at <a href="https://www.thinkful.com/" target="Thinkful">Thinkful</a> and currently living in New York.</p>  <!-- paragraph -->
+        <!-- paragraph --> <!-- using class p-change, adding feature "strong"-->
+        <p class="p-changes">My character allows me to enjoy life to full it's core 
+           and my <strong style="color:black">passions</strong> are:</p>  
+          <ul class="bullet-list"> <!-- using class "bullet-list" for unordered list -->
+            <li>Listening to music</li> <!-- list item-->
+            <li>Traveling around the world</li>   <!-- list item-->
+            <li>Getting new experiance by learning from different cultures</li>   <!-- list item-->
+          </ul>
+        <!-- paragraph with added link inside -->
+        <p>Please take a look at my website and feel free to <a href="#Contact Artur">contact me!</a></p> 
+      </div>
+      <hr>   <!-- horizontal rule-->
+      </article>
+      <article>
+        <div>
+          <h2 class="changes"> About Artur</h2>  <!-- using class "changes" for heading number 2-->
+        </div>
+        <div class= "wrapper"> <!-- using class wrapper to wrapp around content -->
+          <p>Right after graduation college, I moved to USA from Poland. In Poland I 
+            got my Master's degree in geoscience. Since 2016 I am building my new 
+            life in New York City.</p>    <!-- paragraph -->
+          <p>I became a student at Thinkful recently, and I am very happly to build 
+            my new career with help of high level professionals.</p>      <!-- paragraph -->
+          <p>If you are looking to hire new developer, please feel free to reach me out! It gives me exitement to work with other developers to creat new software.</p>     <!-- paragraph -->
+        </div>
+        <hr>    <!-- horizontal rule-->
+      </article>
+      <article>
+        <div class= "wrapper">  <!-- using class wrapper to wrapp around content -->
+           <h3 class="changes" id="Contact Artur">Contact Artur</h3>
+           <p>Please feel free to contact me:</p>
+             <ol>          <!-- creating ordered list and adding absolute links -->
+             <li> <a href="https://www.linkedin.com/feed/" 
+                  target="linkedin">Linkedin</a></li>
+             <li><a href="https://github.com/Artur-Vanivskyi" 
+                  target="github">GitHub</a></li>
+             </ol>
+        </div>
+      </article>
+    <div>
+      <!-- adding link to the picture to see location area-->
+      <a href="https://www.google.com/maps/place/New+York,+NY/@40.6393373,-73.9620046,12.72z/data=!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728" target="_blank">
+        <img src="image/place.png" width= "300" alt="map">    <!-- adding picture-->
+      </a>
+    </div>
+      <footer>  <!-- making the bottom container of a page-->
+         <p>Thinkful</p>
+      </footer>
+  </main>  <!-- closing structure main-->
+
+  <script src="script.js"></script>
+    
+</body>
+
+</html>

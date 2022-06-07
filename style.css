@@ -1,0 +1,100 @@
+
+/* assigning color and size for the body of the page*/
+body{
+  background-color: beige;
+  width: 800px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  border:ridge;
+  border-color:#ffa07a
+}
+/* assigning the color to top part of a page*/
+body > header{
+  background-color: #800000;
+  
+}
+/* making parameters to style heading number 1, such as font-size, font-family, text-align*/
+body > header > h1{
+  color: #fff8dc;
+  font-size: 45;
+  font-family: cursive;
+  text-align: center;
+}
+/* making parameters to stype paragraph*/
+body > header > p{
+  color: #ffdead;
+  text-align:center;
+  font-size: 20;
+  font-family: fantasy;
+  margin:10px 280px 10px ;
+  padding: 5px;
+}
+/* styling and displaying image on the page. Also, using tool border-radius to round the image*/
+main > div > img {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 35%;
+}
+/* creating class .changes for using it in html file in different spots*/
+.changes{
+  color: brown;
+  text-align:center;
+  font-family: "comic sans ms";
+}
+/* creating class .p-changes for using it in html file in different spots*/
+.p-changes{
+  color: brown;
+  font-size: 16;
+  text-align:center;
+  margin: 5px 0px 5px 0px;
+}
+/* making parameters to stype paragraph*/
+body > main > div > article >p{
+  color: brown;
+  font-size:16px;
+  text-align:center;
+  margin:0px 80px 0px 0px;
+}
+/* creating styling links*/
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: green; }
+
+/* horizontal rule*/
+hr{
+  margin:30px 90px;
+}
+/* creating class .bullet-list to style unordered list*/
+.bullet-list{
+  padding: 20px 10px;
+  margin:0px 200px;
+  color: black;
+  list-style-position:inside;
+  
+}
+/* aligning heading number 2 */
+body > main > article > div > h2{
+  text-align: center; 
+} 
+/* creating class .wrapper to wrap around content*/
+.wrapper{
+  width: 61%;
+  margin:auto;
+}
+/* parameters for image*/
+main > div > a > img {
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border:solid;
+}
+/* making parameters for bottom part of a page*/
+footer{
+  background-color:#800000;
+  color: #fff8dc;
+  font-size: 35px;
+  font-family: monospace;
+  text-align:center;
+  height:10%;
+}
